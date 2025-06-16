@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514863288530",
+    "project_id": "proasset-27031",
+    "storage_bucket": "proasset-27031.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514863288530:android:5e404241cf355b3b66dd0b",
+        "android_client_info": {
+          "package_name": "com.example.proassets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAe2_pi0fuJQEso0dyXmgCZxyYU1A6mCBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
