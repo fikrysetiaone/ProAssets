@@ -10,8 +10,8 @@ plugins {
 
 android {
     namespace = "com.example.proassets"
-    compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    compileSdk = 34 // Angka ini bisa berbeda
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
