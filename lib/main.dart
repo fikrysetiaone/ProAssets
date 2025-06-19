@@ -1,5 +1,7 @@
 // lib/main.dart
 
+import 'package:google_fonts/google_fonts.dart';
+
 import 'package:flutter/material.dart';
 import 'dart:developer'; // Tetap digunakan untuk logging
 
@@ -15,6 +17,9 @@ import 'firebase_options.dart'; // File ini di-generate oleh flutterfire_cli
 
 // Import halaman HomeScreen Anda
 import 'package:proassets/home_screen.dart'; // Pastikan file ini ada
+
+//For development or temporary use
+import 'package:proassets/screens/assets/daftar_assets.dart';
 
 // Jadikan fungsi main menjadi async untuk inisialisasi Firebase
 void main() async {
@@ -34,9 +39,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Pro Assets Login',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(
+          textTheme: GoogleFonts.robotoTextTheme(
+            Theme.of(context).textTheme,
+          ),
+          primarySwatch: Colors.blue),
       // Arahkan home ke LoginPage seperti semula
-      home: const LoginPage(),
+      home: const DaftarAset(),
       debugShowCheckedModeBanner: false,
     );
   }
