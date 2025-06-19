@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 // DIUBAH: Path import baru ke folder widgets
 import 'package:proassets/widgets/common_widgets.dart';
 
-class DashboardScreen extends StatelessWidget {
-  const DashboardScreen({super.key});
+class HandOverScreen extends StatelessWidget {
+  const HandOverScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,8 +11,7 @@ class DashboardScreen extends StatelessWidget {
       appBar: const CustomAppBar(),
       drawer: const CustomDrawer(),
       body: const Center(
-        child: Text('Selamat Datang di Dashboard!',
-            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold)),
+        child: Text('Halaman Serah Terima', style: TextStyle(fontSize: 24)),
       ),
     );
   }
