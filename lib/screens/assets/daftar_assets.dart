@@ -34,7 +34,7 @@ class _DaftarAsetState extends State<DaftarAset> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          // 🔤 Judul Daftar Aset
+          // Judul Daftar Aset
           const Padding(
             padding: EdgeInsets.fromLTRB(16, 16, 16, 4),
             child: Text(
@@ -46,7 +46,7 @@ class _DaftarAsetState extends State<DaftarAset> {
             ),
           ),
 
-          // 🔍 Search bar
+          // Search bar
           Padding(
             padding: const EdgeInsets.all(16.0),
             child: TextField(
